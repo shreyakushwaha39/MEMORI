@@ -1,0 +1,106 @@
+# ==========================================
+# MEMORI - Global Git Ignore
+# ==========================================
+
+# ---------- Environment / Secrets ----------
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.p12
+*.jks
+
+# ---------- Java / Spring Boot ----------
+target/
+*.class
+*.jar
+*.war
+*.ear
+
+# ---------- Eclipse ----------
+.classpath
+.project
+.settings/
+
+# ---------- IntelliJ ----------
+.idea/
+*.iml
+out/
+
+# ---------- VS Code ----------
+.vscode/
+
+# ---------- Maven ----------
+.mvn/timing.properties
+
+# ---------- Gradle ----------
+.gradle/
+build/
+
+# ---------- Android ----------
+android-app/.gradle/
+android-app/build/
+android-app/app/build/
+android-app/local.properties
+android-app/.idea/
+android-app/.externalNativeBuild/
+android-app/.cxx/
+android-app/captures/
+android-app/.kotlin/
+
+# APK / AAB files
+*.apk
+*.aab
+
+# ---------- Python ----------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python packaging
+*.egg-info/
+dist/
+wheels/
+
+# Testing / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ---------- Node / React / Lovable ----------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+web-app/dist/
+web-app/build/
+
+# ---------- Logs ----------
+*.log
+logs/
+
+# ---------- OS ----------
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ---------- Temporary files ----------
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# ---------- Database local files ----------
+*.sqlite
+*.sqlite3
+
+# ---------- IDE metadata ----------
+*.bak
