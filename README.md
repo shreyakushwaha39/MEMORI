@@ -4,7 +4,6 @@
 
 MEMORI is an AI-powered digital memory platform that automatically syncs photos and videos from Android, organizes them into meaningful memories, and helps users search, explore, and relive their moments.
 
-
 ## ✨ Features
 
 - 📱 Automatic Android Gallery Sync
@@ -24,28 +23,31 @@ MEMORI is an AI-powered digital memory platform that automatically syncs photos 
 - **AI:** Python, FastAPI, OpenCV, Embeddings, Semantic Search
 - **Database:** PostgreSQL, pgvector
 - **Web:** Lovable, React
+- **Storage:** Cloud Object Storage
 - **Tools:** Git, GitHub, Postman, pgAdmin, Android Studio, Eclipse, VS Code
 
 ## 🏗️ Architecture
 
-```text
-Android App ──┐
-              ├──→ Spring Boot ──→ PostgreSQL
-Lovable Web ──┘          │
-                         ├──→ Cloud Storage
-                         └──→ Python AI Service
-```
+    Android App ──┐
+                  ├──→ Spring Boot ──→ PostgreSQL
+    Lovable Web ──┘          │
+                             ├──→ Cloud Storage
+                             └──→ Python AI Service
 
 ## 📁 Project Structure
 
-MEMORI/
-├── android-app/
-├── backend/
-├── ai-service/
-├── web-app/
-├── database/
-└── docs/
+    MEMORI/
+    ├── android-app/
+    ├── backend/
+    ├── ai-service/
+    ├── web-app/
+    ├── database/
+    └── docs/
+
+## 🚧 Status
+
+Currently under active development.
 
 ## 🎯 Goal
 
-Capture → Understand → Organize → Search → Relive → Rediscover
+**Capture → Understand → Organize → Search → Relive → Rediscover**
